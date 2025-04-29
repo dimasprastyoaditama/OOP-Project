@@ -14,7 +14,11 @@ void printData ()
     cout << "Nilai:" << nilai << endl;
     }
 };
-
+int main () {
+    mahasiswa mhs;
+    mhs.nim = 119;
+    mhs.nama = "Naufal";
+    mhs.nilai = 80.5;
 
 
 
